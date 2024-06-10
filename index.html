@@ -1,10 +1,82 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <title>Hello, world!</title>
- </head>
- <body>
-  <h1>Hello, world!</h1>
-  <p>Sunhee의 홈페이지에 오신 것을 환영합니다!</p>
- </body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개/이력서 웹페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E0F5FF; /* 밝은 푸른색 배경 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+            max-width: 600px; /* 최대 너비 제한 */
+            width: 90%; /* 너비 90%로 설정 */
+        }
+        h1 {
+            text-align: center;
+            color: #333; /* 어두운 회색 텍스트 */
+            margin-bottom: 30px; /* 위아래 여백 추가 */
+        }
+        .info {
+            margin-bottom: 25px; /* 각 정보 사이의 간격 조정 */
+        }
+        .info label {
+            font-weight: bold;
+            color: #555; /* 중간 회색 텍스트 */
+            margin-right: 10px; /* 레이블과 값 사이의 간격 조정 */
+        }
+        .info span {
+            color: #333; /* 어두운 회색 텍스트 */
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>자기소개/이력서</h1>
+        <img src="ziggs.jpg" alt="예시 사진">
+        <div class="info">
+            <label>이름:</label>
+            <span>이지운 Ji-Woon Lee</span>
+        </div>
+        <div class="info">
+            <label>이메일:</label>
+            <span>green36duck@dongyang.ac.kr</span>
+        </div>
+        <div class="info">
+            <label>기술스택:</label>
+            <span>html, css, notion, 구글 도구</span>
+        </div>
+        <div class="info">
+            <label>대학 정보:</label>
+            <span>동양미래대학교 컴퓨터소프트웨어공학과 2024년도 입학</span>
+        </div>
+        <div class="info">
+            <label>기술 개발 경험:</label>
+            <span>html과 css 개발</span>
+        </div>
+        <div class="info">
+            <label>관심 기술분야:</label>
+            <span>가상현실, 인공지능, 사물 인터넷, 빅데이터</span>
+        </div>
+    </div>
+</body>
 </html>
